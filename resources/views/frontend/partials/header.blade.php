@@ -95,12 +95,15 @@
                                 <ul>
                                     <li><a href="#" class="active">Home</a></li>
 
-                                    <li><a href="/aboutus">About Us</a> </li>
+                                    <li><a href="{{ route('aboutus') }}">About Us</a> </li>
 
                                     <li><a href="#">Services</a>
                                         <ul class="dropdown">
-                                            <li><a href="/service1">Services</a></li>
-                                            <li><a href="single-services.html">Single Services</a></li>
+                                            <li><a href="/bookkeeping">Bookkeeping & Accounting</a></li>
+                                            <li><a href="/financial_analysis">Financial Analysis</a></li>
+                                            <li><a href="/financial_planning">Financial Planning</a></li>
+                                            <li><a href="/feasibility_study">Feasibility Study</a></li>
+                                            <li><a href="/cfo">CFO Services</a></li>
                                         </ul>
                                     </li>
 
@@ -108,7 +111,7 @@
 
 
 
-                                    <li><a href="/contactus">Contact</a></li>
+                                    <li><a href="{{ route('contactus') }}">Contact</a></li>
                                 </ul>
 
 
