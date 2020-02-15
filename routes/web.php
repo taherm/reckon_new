@@ -44,3 +44,8 @@ Route::get('/feasibility_study', function () {
 Route::get('/cfo', function () {
     return view('frontend.services.cfo');
 })->name('services.cfo');
+
+
+Route::get('/home_ar', function () {
+    return view('frontend_ar.index');
+})->name('home_ar');
