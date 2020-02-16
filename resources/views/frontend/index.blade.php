@@ -76,7 +76,7 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="welcome-text">
-                      <span>Welcome Reckon</span>
+                      <span>@lang('general.welcome')</span>
                     <h4>Business Advisories</h4>
                     <p>Maintaining an accurate accounting record is critical part of any business, so the success of
                         your business depends on those records. Accounting records help you evaluate your business

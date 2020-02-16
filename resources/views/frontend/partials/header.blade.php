@@ -112,7 +112,7 @@
 
 
                                     <li><a href="{{ route('contactus') }}">Contact</a></li>
-                                    <li><a href="{{ route('home_ar') }}">العربية</a></li>
+                                    <li><a href="{{ route('language.change',['locale' => 'ar']) }}">العربية</a></li>
                                 </ul>
 
 

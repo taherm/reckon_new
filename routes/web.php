@@ -49,3 +49,5 @@ Route::get('/cfo', function () {
 Route::get('/home_ar', function () {
     return view('frontend_ar.index');
 })->name('home_ar');
+
+Route::get('language/{locale}', 'HomeController@changeLanguage')->name('language.change');
