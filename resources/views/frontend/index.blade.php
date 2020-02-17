@@ -76,17 +76,9 @@
             <div class="row">
                 <div class="col-lg-6 col-md-12">
                     <div class="welcome-text">
-                      <span>@lang('general.welcome')</span>
-                    <h4>Business Advisories</h4>
-                    <p>Maintaining an accurate accounting record is critical part of any business, so the success of
-                        your business depends on those records. Accounting records help you evaluate your business
-                        performance by identifying any weakness in the operation this allowing you to take timely
-                        corrective action. </p>
-
-                    <p> Owning and operating your own business requires you to perform many tasks to keep your
-                        business operating well. While you need to stay involved in many of the day-to-day
-                        responsibilities of your business, it can be advantageous to outsource the accounting and
-                        bookkeeping work to experts.</p>
+                      <span>@lang('general.index.heading1')</span>
+                    <h4>@lang('general.index.heading2')</h4>
+                    <p>@lang('general.index.paragraph') </p>
 
                     <div class="gq-au-btn">
                         <a href="get-quote.html" class="btn btn-primary mr-20">Get a Quote</a>
