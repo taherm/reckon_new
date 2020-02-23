@@ -1,7 +1,17 @@
 <!doctype html>
 <html lang="zxx">
+
+@if ( Config::get('app.locale') == 'en')
+
 @include('frontend.partials.head')
 
+
+   @elseif ( Config::get('app.locale') == 'ar' )
+
+   @include('frontend.partials.head_ar')
+
+
+   @endif
 
 <body>
     <!-- Start Preloader Area -->
@@ -33,7 +43,13 @@
 
     <div class="go-top"><i class="fa fa-angle-up"></i></div>
 
+  
+
+   
+
     @include('frontend.partials.scripts')
+
+
    
 </body>
 

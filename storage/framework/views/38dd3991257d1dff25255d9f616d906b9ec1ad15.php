@@ -5,7 +5,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-7 col-md-8 col-sm-8">
-                        <p><i class="fa fa-clock-o"></i> @lang('general.header.working_hours')</p>
+                        <p><i class="fa fa-clock-o"></i> <?php echo app('translator')->get('general.header.working_hours'); ?></p>
                     </div>
 
                     <div class="col-lg-5 col-md-4 col-sm-4">
@@ -39,7 +39,7 @@
                                 </div>
 
                                 <div class="text">
-                                    <span>@lang('general.header.email')</span>
+                                    <span><?php echo app('translator')->get('general.header.email'); ?></span>
                                     <p><a href="#">info@kw-reckon.com</a></p>
                                 </div>
                             </li>
@@ -61,7 +61,7 @@
                                 </div>
 
                                 <div class="text">
-                                    <span>@lang('general.header.question')</span>
+                                    <span><?php echo app('translator')->get('general.header.question'); ?></span>
                                     <p><a href="#">+965 50009777</a></p>
                                 </div>
                             </li>
@@ -93,17 +93,17 @@
                             <!-- Nav Start -->
                             <div class="classynav">
                                 <ul>
-                                    <li><a href="/" class="active">@lang('general.header.home')</a></li>
+                                    <li><a href="/" class="active"><?php echo app('translator')->get('general.header.home'); ?></a></li>
 
-                                    <li><a href="{{ route('aboutus') }}">@lang('general.header.about')</a> </li>
+                                    <li><a href="<?php echo e(route('aboutus')); ?>"><?php echo app('translator')->get('general.header.about'); ?></a> </li>
 
-                                    <li><a href="#">@lang('general.header.services')</a>
+                                    <li><a href="#"><?php echo app('translator')->get('general.header.services'); ?></a>
                                         <ul class="dropdown">
-                                            <li><a href="/bookkeeping">@lang('general.header.bookkeeping')</a></li>
-                                            <li><a href="/financial_analysis">@lang('general.header.financial_analysis')</a></li>
-                                            <li><a href="/financial_planning">@lang('general.header.financial_planning')</a></li>
-                                            <li><a href="/feasibility_study">@lang('general.header.feasibility_study')</a></li>
-                                            <li><a href="/cfo">@lang('general.header.cfo')</a></li>
+                                            <li><a href="/bookkeeping"><?php echo app('translator')->get('general.header.bookkeeping'); ?></a></li>
+                                            <li><a href="/financial_analysis"><?php echo app('translator')->get('general.header.financial_analysis'); ?></a></li>
+                                            <li><a href="/financial_planning"><?php echo app('translator')->get('general.header.financial_planning'); ?></a></li>
+                                            <li><a href="/feasibility_study"><?php echo app('translator')->get('general.header.feasibility_study'); ?></a></li>
+                                            <li><a href="/cfo"><?php echo app('translator')->get('general.header.cfo'); ?></a></li>
                                         </ul>
                                     </li>
 
@@ -111,9 +111,9 @@
 
 
 
-                                    <li><a href="{{ route('contactus') }}">@lang('general.header.contact')</a></li>
-                                    <li><a href="{{ route('language.change',['locale' => 'ar']) }}">@lang('general.header.arabic')</a></li>
-                                    <li><a href="{{ route('language.change',['locale' => 'en']) }}">@lang('general.header.english')</a></li>
+                                    <li><a href="<?php echo e(route('contactus')); ?>"><?php echo app('translator')->get('general.header.contact'); ?></a></li>
+                                    <li><a href="<?php echo e(route('language.change',['locale' => 'ar'])); ?>"><?php echo app('translator')->get('general.header.arabic'); ?></a></li>
+                                    <li><a href="<?php echo e(route('language.change',['locale' => 'en'])); ?>"><?php echo app('translator')->get('general.header.english'); ?></a></li>
                                 </ul>
 
 
@@ -136,4 +136,4 @@
         </div>
         <!-- End Search Popup -->
     </header>
-    <!-- End Header -->
+    <!-- End Header --><?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/partials/header.blade.php ENDPATH**/ ?>

@@ -1,5 +1,4 @@
-@extends('frontend.layouts.master')
-@section('content')
+<?php $__env->startSection('content'); ?>
 <!-- Start Main Banner -->
 <div class="home-slides" style="direction:ltr">
     <div class="main-banner item-bg-one">
@@ -76,9 +75,9 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="welcome-text">
-                    <span>@lang('general.index.heading1')</span>
-                    <h4>@lang('general.index.heading2')</h4>
-                    <p>@lang('general.index.paragraph') </p>
+                    <span><?php echo app('translator')->get('general.index.heading1'); ?></span>
+                    <h4><?php echo app('translator')->get('general.index.heading2'); ?></h4>
+                    <p><?php echo app('translator')->get('general.index.paragraph'); ?> </p>
 
                     <div class="gq-au-btn">
                         <a href="get-quote.html" class="btn btn-primary mr-20">Get a Quote</a>
@@ -90,7 +89,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="welcome-video">
                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=f8MBSO-kcOE"><img
-                            src="{{asset('assets/img/play.png')}}" alt="play"></a>
+                            src="<?php echo e(asset('assets/img/play.png')); ?>" alt="play"></a>
                 </div>
             </div>
         </div>
@@ -158,7 +157,7 @@
 <section class="services-area ptb-80">
     <div class="container">
         <div class="section-title">
-            <h3>@lang('general.index.services')</h3>
+            <h3><?php echo app('translator')->get('general.index.services'); ?></h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
         </div>
 
@@ -168,11 +167,11 @@
                     <div class="services-content">
                         <img src="assets/img/4.png" alt="icon">
 
-                        <h4>@lang('general.services.bookkeeping')</h4>
+                        <h4><?php echo app('translator')->get('general.services.bookkeeping'); ?></h4>
                         <!--     <p>Suspendisse tempus, enim at convallis maximus faucibus lorem at rhoncus justo tellus.</p>   -->
                         <a href="single-services.html" class="read-more-btn">
                             <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
-                            @lang('general.index.read_more')
+                            <?php echo app('translator')->get('general.index.read_more'); ?>
                             <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
                         </a>
                     </div>
@@ -186,10 +185,10 @@
                             <div class="services-content">
                                 <img src="assets/img/4.png" alt="icon">
 
-                                <h4>@lang('general.services.financial_analysis')</h4>
+                                <h4><?php echo app('translator')->get('general.services.financial_analysis'); ?></h4>
                                 <a href="single-services.html" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
-                                    @lang('general.index.read_more')
+                                    <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
                                 </a>
                             </div>
@@ -201,10 +200,10 @@
                             <div class="services-content">
                                 <img src="assets/img/4.png" alt="icon">
 
-                                <h4>@lang('general.services.financial_planning')</h4>
+                                <h4><?php echo app('translator')->get('general.services.financial_planning'); ?></h4>
                                 <a href="single-services.html" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
-                                    @lang('general.index.read_more')
+                                    <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
                                 </a>
                             </div>
@@ -216,10 +215,10 @@
                             <div class="services-content">
                                 <img src="assets/img/4.png" alt="icon">
 
-                                <h4>@lang('general.services.feasibility_study')</h4>
+                                <h4><?php echo app('translator')->get('general.services.feasibility_study'); ?></h4>
                                 <a href="single-services.html" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
-                                    @lang('general.index.read_more')
+                                    <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
                                 </a>
                             </div>
@@ -231,10 +230,10 @@
                             <div class="services-content">
                                 <img src="assets/img/4.png" alt="icon">
 
-                                <h4>@lang('general.services.cfo')</h4>
+                                <h4><?php echo app('translator')->get('general.services.cfo'); ?></h4>
                                 <a href="single-services.html" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
-                                    @lang('general.index.read_more')
+                                    <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
                                 </a>
                             </div>
@@ -250,4 +249,6 @@
 <!-- End Services Area -->
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('frontend.layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/index.blade.php ENDPATH**/ ?>
