@@ -25,6 +25,6 @@
     <!-- Color Switcher CSS -->
     <link rel="stylesheet" href="rtl/assets/dist/color-switcher.css">
 
-    <title>AR</title>
+    <title>ريكون</title>
 </head>
 <?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/partials/head_ar.blade.php ENDPATH**/ ?>

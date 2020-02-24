@@ -27,7 +27,7 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-4 col-sm-5">
                         <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo.jpg" alt="logo"></a>
+                            <a href="/"><img src="assets/img/logo.jpg" alt="logo"></a>
                         </div>
                     </div>
 

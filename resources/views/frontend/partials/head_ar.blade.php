@@ -25,5 +25,5 @@
     <!-- Color Switcher CSS -->
     <link rel="stylesheet" href="rtl/assets/dist/color-switcher.css">
 
-    <title>AR</title>
+    <title>ريكون</title>
 </head>

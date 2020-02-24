@@ -1,5 +1,4 @@
-@extends('frontend.layouts.master')
-@section('content')
+<?php $__env->startSection('content'); ?>
 <!-- Start Main Banner -->
 <div class="page-title">
     <div class="animation-shape">
@@ -46,11 +45,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <h3>@lang('general.header.about')</h3>
+                        <h3><?php echo app('translator')->get('general.header.about'); ?></h3>
                         <ul>
-                            <li><a href="index.html">@lang('general.header.home')</a></li>
+                            <li><a href="index.html"><?php echo app('translator')->get('general.header.home'); ?></a></li>
                             <li>/</li>
-                            <li class="active">@lang('general.header.about')</li>
+                            <li class="active"><?php echo app('translator')->get('general.header.about'); ?></li>
                         </ul>
                     </div>
                 </div>
@@ -66,9 +65,9 @@
         <div class="row">
             <div class="col-lg-6 col-md-12">
                 <div class="welcome-text">
-                    <span>@lang('general.index.heading1')</span>
-                    <h4>@lang('general.index.heading2')</h4>
-                    <p>@lang('general.index.paragraph') </p>
+                    <span><?php echo app('translator')->get('general.index.heading1'); ?></span>
+                    <h4><?php echo app('translator')->get('general.index.heading2'); ?></h4>
+                    <p><?php echo app('translator')->get('general.index.paragraph'); ?> </p>
 
                     <div class="gq-au-btn">
                         <a href="get-quote.html" class="btn btn-primary mr-20">Get a Quote</a>
@@ -80,7 +79,7 @@
             <div class="col-lg-6 col-md-12">
                 <div class="welcome-video">
                     <a class="popup-youtube" href="https://www.youtube.com/watch?v=f8MBSO-kcOE"><img
-                            src="{{asset('assets/img/play.png')}}" alt="play"></a>
+                            src="<?php echo e(asset('assets/img/play.png')); ?>" alt="play"></a>
                 </div>
             </div>
         </div>
@@ -169,4 +168,6 @@
 
 
 
-@endsection
+<?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('frontend.layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/about.blade.php ENDPATH**/ ?>
