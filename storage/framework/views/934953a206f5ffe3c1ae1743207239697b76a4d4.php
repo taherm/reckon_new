@@ -1,5 +1,5 @@
- @extends('frontend.layouts.master')
- @section('content')
+ 
+ <?php $__env->startSection('content'); ?>
  <!-- Start Main Banner -->
  <div class="page-title">
      <div class="animation-shape">
@@ -46,11 +46,11 @@
              <div class="container">
                  <div class="row">
                      <div class="col-lg-12 col-md-12">
-                         <h3>@lang('general.header.contact')</h3>
+                         <h3><?php echo app('translator')->get('general.header.contact'); ?></h3>
                          <ul>
-                             <li><a href="index.html">@lang('general.header.home')</a></li>
+                             <li><a href="index.html"><?php echo app('translator')->get('general.header.home'); ?></a></li>
                              <li>/</li>
-                             <li class="active">@lang('general.header.contact')</li>
+                             <li class="active"><?php echo app('translator')->get('general.header.contact'); ?></li>
                          </ul>
                      </div>
                  </div>
@@ -120,7 +120,7 @@
                                  <div class="row">
                                      <div class="col-lg-12 col-md-6">
                                          <div class="form-group">
-                                             <label for="name">@lang('general.contactus.name')*</label>
+                                             <label for="name"><?php echo app('translator')->get('general.contactus.name'); ?>*</label>
                                              <input type="text" class="form-control" name="name" id="name"
                                                  placeholder="" required data-error="Please enter your name">
                                              <div class="help-block with-errors"></div>
@@ -129,7 +129,7 @@
 
                                      <div class="col-lg-12 col-md-6">
                                          <div class="form-group">
-                                             <label for="email">@lang('general.contactus.email')*</label>
+                                             <label for="email"><?php echo app('translator')->get('general.contactus.email'); ?>*</label>
                                              <input type="email" class="form-control" name="email" id="email"
                                                  placeholder="" required data-error="Please enter your email">
                                              <div class="help-block with-errors"></div>
@@ -138,7 +138,7 @@
 
                                      <div class="col-lg-12 col-md-12">
                                          <div class="form-group">
-                                             <label for="number">@lang('general.contactus.phone')*</label>
+                                             <label for="number"><?php echo app('translator')->get('general.contactus.phone'); ?>*</label>
                                              <input type="text" class="form-control" name="number" id="number"
                                                  placeholder="" required data-error="Please enter your number">
                                              <div class="help-block with-errors"></div>
@@ -147,7 +147,7 @@
 
                                      <div class="col-lg-12 col-md-12">
                                          <div class="form-group">
-                                             <label for="message">@lang('general.contactus.message')*</label>
+                                             <label for="message"><?php echo app('translator')->get('general.contactus.message'); ?>*</label>
                                              <textarea name="message" class="form-control" id="message" cols="30"
                                                  rows="4" placeholder="" required
                                                  data-error="Write your message"></textarea>
@@ -156,7 +156,7 @@
                                      </div>
 
                                      <div class="col-lg-12 col-md-12">
-                                         <button type="submit" class="btn btn-primary">@lang('general.contactus.send_message')</button>
+                                         <button type="submit" class="btn btn-primary"><?php echo app('translator')->get('general.contactus.send_message'); ?></button>
                                          <div id="msgSubmit" class="h3 text-center hidden"></div>
                                          <div class="clearfix"></div>
                                      </div>
@@ -171,4 +171,6 @@
  </section>
  <!-- End Contact Us Area -->
 
- @endsection
+ <?php $__env->stopSection(); ?>
+
+<?php echo $__env->make('frontend.layouts.master', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/contactus.blade.php ENDPATH**/ ?>
