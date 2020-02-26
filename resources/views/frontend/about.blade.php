@@ -67,12 +67,12 @@
             <div class="col-lg-6 col-md-12">
                 <div class="welcome-text">
                     <span>@lang('general.index.heading1')</span>
-                    <h4>@lang('general.index.heading2')</h4>
-                    <p>@lang('general.index.paragraph') </p>
+                    <h4>@lang('general.header.about')</h4>
+                    <p>@lang('general.aboutus.paragraph') </p>
 
                     <div class="gq-au-btn">
-                        <a href="get-quote.html" class="btn btn-primary mr-20">Get a Quote</a>
-                        <a href="about.html" class="btn btn-primary btn-color">About Us</a>
+                        <a href="/contactus" class="btn btn-primary mr-20">Get a Quote</a>
+
                     </div>
                 </div>
             </div>
@@ -92,68 +92,47 @@
 <section class="what-we-do ptb-80 bg">
     <div class="container">
         <div class="section-title">
-            <h3>What We Do</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
+            <h3>@lang('general.aboutus.manager_name')</h3>
+            <p>@lang('general.aboutus.manager_text')</p>
         </div>
 
         <div class="row">
-            <div class="col-lg-8 col-md-12">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="what-we-do-box">
-                            <div class="icon">
-                                <img src="assets/img/shield-color.png" alt="shield">
-                            </div>
-
-                            <h3>Financial Planing</h3>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="what-we-do-box">
-                            <div class="icon">
-                                <img src="assets/img/shield-color.png" alt="shield">
-                            </div>
-
-                            <h3>Estate Planing</h3>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="what-we-do-box">
-                            <div class="icon">
-                                <img src="assets/img/shield-color.png" alt="shield">
-                            </div>
-
-                            <h3>Financial Analysis</h3>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="what-we-do-box">
-                            <div class="icon">
-                                <img src="assets/img/shield-color.png" alt="shield">
-                            </div>
-
-                            <h3>Marketing Plan</h3>
-                            <p>Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt ut labore et dolore
-                                aliquip ex ea commodo consequat.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
 
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                 <div class="what-we-do-img">
-                    <img src="assets/img/what-we-do-img.jpg" alt="what-we-do-img">
+                    <img src="assets/img/manager.jpg" alt="what-we-do-img">
                 </div>
             </div>
+
+            <div class="col-lg-8 col-md-12">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="what-we-do-box">
+                           <!-- <div class="icon">
+                                <img src="assets/img/shield-color.png" alt="shield">
+                            </div>  -->
+
+                            <h3>@lang('general.aboutus.background')</h3>
+                            <p>@lang('general.aboutus.background_text')</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6">
+                        <div class="what-we-do-box">
+                          <!--  <div class="icon">
+                                <img src="assets/img/shield-color.png" alt="shield">
+                            </div> -->
+
+                            <h3>@lang('general.aboutus.contact')</h3>
+                            <p>@lang('general.aboutus.contact_text')</p>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+
         </div>
     </div>
 </section>

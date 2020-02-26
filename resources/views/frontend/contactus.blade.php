@@ -116,7 +116,8 @@
                          </div>
 
                          <div class="col-lg-6 col-md-12">
-                             <form id="contactForm">
+                             <form action="{{url('/contact-mail')}}" method="POST" id="contactForm">
+                             {{ csrf_field() }}
                                  <div class="row">
                                      <div class="col-lg-12 col-md-6">
                                          <div class="form-group">
@@ -139,7 +140,7 @@
                                      <div class="col-lg-12 col-md-12">
                                          <div class="form-group">
                                              <label for="number">@lang('general.contactus.phone')*</label>
-                                             <input type="text" class="form-control" name="number" id="number"
+                                             <input type="text" class="form-control" name="phone" id="phone"
                                                  placeholder="" required data-error="Please enter your number">
                                              <div class="help-block with-errors"></div>
                                          </div>

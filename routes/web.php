@@ -46,3 +46,5 @@ Route::get('/cfo', function () {
 })->name('services.cfo');
 
 Route::get('language/{locale}', 'HomeController@changeLanguage')->name('language.change');
+
+Route::post('/contact-mail','ContactController@send');
