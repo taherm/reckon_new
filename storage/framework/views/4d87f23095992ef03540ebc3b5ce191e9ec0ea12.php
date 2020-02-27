@@ -67,7 +67,7 @@
                 <div class="welcome-text">
                     <span><?php echo app('translator')->get('general.index.heading1'); ?></span>
                     <h4><?php echo app('translator')->get('general.header.about'); ?></h4>
-                    <p><?php echo app('translator')->get('general.aboutus.paragraph'); ?> </p>
+                    <p align="justify"><?php echo app('translator')->get('general.aboutus.paragraph'); ?> </p>
 
                     <div class="gq-au-btn">
                         <a href="/contactus" class="btn btn-primary mr-20">Get a Quote</a>
@@ -112,7 +112,7 @@
                             </div>  -->
 
                             <h3><?php echo app('translator')->get('general.aboutus.background'); ?></h3>
-                            <p><?php echo app('translator')->get('general.aboutus.background_text'); ?></p>
+                            <p align="justify"><?php echo app('translator')->get('general.aboutus.background_text'); ?></p>
                         </div>
                     </div>
 

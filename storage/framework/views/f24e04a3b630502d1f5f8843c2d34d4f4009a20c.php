@@ -1,7 +1,7 @@
 <?php $__env->startSection('service'); ?>
 <div class="services-details-content">
     <h3 class="title"><?php echo app('translator')->get('general.services.bookkeeping'); ?></h3>
-    <p><?php echo app('translator')->get('general.bookkeeping_service.paragraph'); ?></p>
+    <p align="justify"><?php echo app('translator')->get('general.bookkeeping_service.paragraph'); ?></p>
 
     <div class="services-details-features">
         <div class="row">

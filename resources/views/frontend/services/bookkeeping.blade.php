@@ -2,7 +2,7 @@
 @section('service')
 <div class="services-details-content">
     <h3 class="title">@lang('general.services.bookkeeping')</h3>
-    <p>@lang('general.bookkeeping_service.paragraph')</p>
+    <p align="justify">@lang('general.bookkeeping_service.paragraph')</p>
 
     <div class="services-details-features">
         <div class="row">

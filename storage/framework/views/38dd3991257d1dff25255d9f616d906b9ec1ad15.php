@@ -62,7 +62,7 @@
 
                             <div class="text">
                                 <span><?php echo app('translator')->get('general.header.question'); ?></span>
-                                <p><a href="#">+965 50009777</a></p>
+                                <p><a href="#">50009777</a></p>
                             </div>
                         </li>
                     </ul>

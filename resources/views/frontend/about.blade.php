@@ -68,7 +68,7 @@
                 <div class="welcome-text">
                     <span>@lang('general.index.heading1')</span>
                     <h4>@lang('general.header.about')</h4>
-                    <p>@lang('general.aboutus.paragraph') </p>
+                    <p align="justify">@lang('general.aboutus.paragraph') </p>
 
                     <div class="gq-au-btn">
                         <a href="/contactus" class="btn btn-primary mr-20">Get a Quote</a>
@@ -113,7 +113,7 @@
                             </div>  -->
 
                             <h3>@lang('general.aboutus.background')</h3>
-                            <p>@lang('general.aboutus.background_text')</p>
+                            <p align="justify">@lang('general.aboutus.background_text')</p>
                         </div>
                     </div>
 

@@ -2,12 +2,12 @@
 @section('service')
 <div class="services-details-content">
     <h3 class="title">@lang('general.services.financial_analysis')</h3>
-    <p>@lang('general.financial_analysis_service.paragraph1')</p>
+    <p align="justify">@lang('general.financial_analysis_service.paragraph1')</p>
     <br>
-    <p>@lang('general.financial_analysis_service.paragraph2')</p>
+    <p align="justify">@lang('general.financial_analysis_service.paragraph2')</p>
     <br>
 
-    <p>@lang('general.financial_analysis_service.paragraph3')</p>
+    <p align="justify">@lang('general.financial_analysis_service.paragraph3')</p>
 
     <div class="services-details-features">
         <div class="row">

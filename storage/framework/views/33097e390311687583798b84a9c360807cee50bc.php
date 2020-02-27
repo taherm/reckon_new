@@ -1,9 +1,9 @@
 <?php $__env->startSection('service'); ?>
 <div class="services-details-content">
     <h3 class="title"><?php echo app('translator')->get('general.services.cfo'); ?></h3>
-    <p><?php echo app('translator')->get('general.cfo_service.paragraph1'); ?></p>
+    <p align="justify"><?php echo app('translator')->get('general.cfo_service.paragraph1'); ?></p>
     <br>
-    <p> <?php echo app('translator')->get('general.cfo_service.paragraph2'); ?></p>
+    <p align="justify"> <?php echo app('translator')->get('general.cfo_service.paragraph2'); ?></p>
     <br>
 
     <p><?php echo app('translator')->get('general.cfo_service.paragraph3'); ?></p>

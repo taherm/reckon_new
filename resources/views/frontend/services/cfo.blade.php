@@ -2,9 +2,9 @@
 @section('service')
 <div class="services-details-content">
     <h3 class="title">@lang('general.services.cfo')</h3>
-    <p>@lang('general.cfo_service.paragraph1')</p>
+    <p align="justify">@lang('general.cfo_service.paragraph1')</p>
     <br>
-    <p> @lang('general.cfo_service.paragraph2')</p>
+    <p align="justify"> @lang('general.cfo_service.paragraph2')</p>
     <br>
 
     <p>@lang('general.cfo_service.paragraph3')</p>
