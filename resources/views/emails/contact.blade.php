@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Reckon</title>
 </head>
 <body>
-<h1>IdeasOwners Contact Us Mail</h1>
+<h1>Reckon Contact Us Mail</h1>
     <p>From: {{$data['email']}}</p>
     <p>Name: {{$data['name']}}</p>
     <p>phone: {{$data['phone']}}</p>

@@ -21,6 +21,6 @@
 <!-- Classy Nav Min Js -->
 <script src="{{asset('assets/js/classy-nav.min.js')}}"></script>
 <!-- Contact Form Min JS -->
-<script src="{{asset('assets/js/contact-form-script.js')}}"></script>
+<!-- <script src="{{asset('assets/js/contact-form-script.js')}}"></script> -->
 <!-- Main JS -->
 <script src="{{asset('assets/js/main.js')}}"></script>

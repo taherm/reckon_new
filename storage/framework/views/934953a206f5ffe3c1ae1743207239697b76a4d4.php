@@ -64,7 +64,7 @@
  <section class="contact-area ptb-80">
      <div class="container">
          <div class="row">
-             
+
 
              <div class="col-lg-12 col-md-12">
                  <div class="get-in-touch">
@@ -116,8 +116,14 @@
                          </div>
 
                          <div class="col-lg-6 col-md-12">
+                             <?php if($flash=session('message')): ?>
+                             <div class="alert alert-success" id="flash-message">
+                                 <?php echo e($flash); ?>
+
+                             </div>
+                             <?php endif; ?>
                              <form action="<?php echo e(url('/contact-mail')); ?>" method="POST" id="contactForm">
-                             <?php echo e(csrf_field()); ?>
+                                 <?php echo e(csrf_field()); ?>
 
                                  <div class="row">
                                      <div class="col-lg-12 col-md-6">
@@ -158,12 +164,33 @@
                                      </div>
 
                                      <div class="col-lg-12 col-md-12">
-                                         <button type="submit" class="btn btn-primary"><?php echo app('translator')->get('general.contactus.send_message'); ?></button>
+                                         <button type="submit"
+                                             class="btn btn-primary"><?php echo app('translator')->get('general.contactus.send_message'); ?></button>
                                          <div id="msgSubmit" class="h3 text-center hidden"></div>
                                          <div class="clearfix"></div>
                                      </div>
+
+
+
+
                                  </div>
                              </form>
+
+                             <br><br>
+                             <div class="row">
+                                 <div class="col-lg-12">
+                                     <?php if($errors->any()): ?>
+                                     <div class="alert alert-danger">
+                                         <ul>
+                                             <?php $__currentLoopData = $errors->all(); $__env->addLoop($__currentLoopData); foreach($__currentLoopData as $error): $__env->incrementLoopIndices(); $loop = $__env->getLastLoop(); ?>
+                                             <li><?php echo e($error); ?></li> <br>
+                                             <?php endforeach; $__env->popLoop(); $loop = $__env->getLastLoop(); ?>
+                                         </ul>
+                                     </div>
+
+                                     <?php endif; ?>
+                                 </div>
+                             </div>
                          </div>
                      </div>
                  </div>

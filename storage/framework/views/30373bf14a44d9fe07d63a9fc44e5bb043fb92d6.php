@@ -21,7 +21,7 @@
 <!-- Classy Nav Min Js -->
 <script src="<?php echo e(asset('assets/js/classy-nav.min.js')); ?>"></script>
 <!-- Contact Form Min JS -->
-<script src="<?php echo e(asset('assets/js/contact-form-script.js')); ?>"></script>
+<!-- <script src="<?php echo e(asset('assets/js/contact-form-script.js')); ?>"></script> -->
 <!-- Main JS -->
 <script src="<?php echo e(asset('assets/js/main.js')); ?>"></script>
 <?php /**PATH C:\xampp\htdocs\reckon_new\resources\views/frontend/partials/scripts.blade.php ENDPATH**/ ?>

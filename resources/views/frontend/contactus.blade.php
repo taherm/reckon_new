@@ -64,7 +64,7 @@
  <section class="contact-area ptb-80">
      <div class="container">
          <div class="row">
-             
+
 
              <div class="col-lg-12 col-md-12">
                  <div class="get-in-touch">
@@ -116,8 +116,13 @@
                          </div>
 
                          <div class="col-lg-6 col-md-12">
+                             @if($flash=session('message'))
+                             <div class="alert alert-success" id="flash-message">
+                                 {{$flash}}
+                             </div>
+                             @endif
                              <form action="{{url('/contact-mail')}}" method="POST" id="contactForm">
-                             {{ csrf_field() }}
+                                 {{ csrf_field() }}
                                  <div class="row">
                                      <div class="col-lg-12 col-md-6">
                                          <div class="form-group">
@@ -157,12 +162,33 @@
                                      </div>
 
                                      <div class="col-lg-12 col-md-12">
-                                         <button type="submit" class="btn btn-primary">@lang('general.contactus.send_message')</button>
+                                         <button type="submit"
+                                             class="btn btn-primary">@lang('general.contactus.send_message')</button>
                                          <div id="msgSubmit" class="h3 text-center hidden"></div>
                                          <div class="clearfix"></div>
                                      </div>
+
+
+
+
                                  </div>
                              </form>
+
+                             <br><br>
+                             <div class="row">
+                                 <div class="col-lg-12">
+                                     @if ($errors->any())
+                                     <div class="alert alert-danger">
+                                         <ul>
+                                             @foreach ($errors->all() as $error)
+                                             <li>{{ $error }}</li> <br>
+                                             @endforeach
+                                         </ul>
+                                     </div>
+
+                                     @endif
+                                 </div>
+                             </div>
                          </div>
                      </div>
                  </div>
