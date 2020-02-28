@@ -138,7 +138,7 @@
                     <div class="widget quick-contact mb-0">
                         <h4>@lang('general.service_layout.quick_contact')</h4>
                         <p>@lang('general.service_layout.quick_contact_text')</p>
-                        <a href="{{ route('home') }}" class="read-more-btn">
+                        <a href="{{ route('contactus') }}" class="read-more-btn">
                             <span class="left"><i class="fa fa-angle-double-right"></i></span>
                             @lang('general.header.contact')
                             <span class="right"><i class="fa fa-angle-double-right"></i></span>

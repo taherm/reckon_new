@@ -137,7 +137,7 @@
                     <div class="widget quick-contact mb-0">
                         <h4><?php echo app('translator')->get('general.service_layout.quick_contact'); ?></h4>
                         <p><?php echo app('translator')->get('general.service_layout.quick_contact_text'); ?></p>
-                        <a href="<?php echo e(route('home')); ?>" class="read-more-btn">
+                        <a href="<?php echo e(route('contactus')); ?>" class="read-more-btn">
                             <span class="left"><i class="fa fa-angle-double-right"></i></span>
                             <?php echo app('translator')->get('general.header.contact'); ?>
                             <span class="right"><i class="fa fa-angle-double-right"></i></span>
