@@ -47,7 +47,7 @@
                     <div class="col-lg-12 col-md-12">
                         <h3><?php echo app('translator')->get('general.header.about'); ?></h3>
                         <ul>
-                            <li><a href="index.html"><?php echo app('translator')->get('general.header.home'); ?></a></li>
+                            <li><a href="<?php echo e(route('home')); ?>"><?php echo app('translator')->get('general.header.home'); ?></a></li>
                             <li>/</li>
                             <li class="active"><?php echo app('translator')->get('general.header.about'); ?></li>
                         </ul>
@@ -123,7 +123,7 @@
                             </div> -->
 
                             <h3><?php echo app('translator')->get('general.aboutus.contact'); ?></h3>
-                            <p><?php echo app('translator')->get('general.aboutus.contact_text'); ?></p>
+                            <p>50009777 - <a href="mailto:m.alsabea@kw-reckon.com">M.ALSABEA@KW-RECKON.COM </a> </p>
                         </div>
                     </div>
 

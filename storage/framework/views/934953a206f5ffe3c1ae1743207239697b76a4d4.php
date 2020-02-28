@@ -48,7 +48,7 @@
                      <div class="col-lg-12 col-md-12">
                          <h3><?php echo app('translator')->get('general.header.contact'); ?></h3>
                          <ul>
-                             <li><a href="/"><?php echo app('translator')->get('general.header.home'); ?></a></li>
+                             <li><a href="<?php echo e(route('home')); ?>"><?php echo app('translator')->get('general.header.home'); ?></a></li>
                              <li>/</li>
                              <li class="active"><?php echo app('translator')->get('general.header.contact'); ?></li>
                          </ul>

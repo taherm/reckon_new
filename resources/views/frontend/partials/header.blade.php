@@ -10,10 +10,8 @@
 
                 <div class="col-lg-5 col-md-4 col-sm-4">
                     <ul class="header-top-social">
-                        <li><a href="#" class="social"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" class="social"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" class="social"><i class="fa fa-vimeo"></i></a></li>
-                        <li><a href="#" class="social"><i class="fa fa-pinterest-p"></i></a></li>
+                        <li><a href="https://wa.me/96550009777" class="social"><i class="fa fa-whatsapp"></i></a></li>
+                        <li><a href="https://www.instagram.com/kwreckon/" class="social"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
             </div>
@@ -40,7 +38,7 @@
 
                             <div class="text">
                                 <span>@lang('general.header.email')</span>
-                                <p><a href="#">info@kw-reckon.com</a></p>
+                                <p><a href="mailto:info@kw-reckon.com">info@kw-reckon.com</a></p>
                             </div>
                         </li>
 
@@ -62,7 +60,7 @@
 
                             <div class="text">
                                 <span>@lang('general.header.question')</span>
-                                <p><a href="#">50009777</a></p>
+                                <p><a>50009777</a></p>
                             </div>
                         </li>
                     </ul>

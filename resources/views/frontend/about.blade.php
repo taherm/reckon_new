@@ -124,7 +124,7 @@
                             </div> -->
 
                             <h3>@lang('general.aboutus.contact')</h3>
-                            <p>@lang('general.aboutus.contact_text')</p>
+                            <p>50009777 - <a href="mailto:m.alsabea@kw-reckon.com">M.ALSABEA@KW-RECKON.COM </a> </p>
                         </div>
                     </div>
 
