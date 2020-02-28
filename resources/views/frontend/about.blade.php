@@ -100,7 +100,7 @@
 
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                 <div class="what-we-do-img">
-                    <img src="{{asset('assets/img/manager.jpg')}}" alt="what-we-do-img">
+                    <img src="{{asset('assets/img/manager.JPG')}}" alt="what-we-do-img">
                 </div>
             </div>
 
