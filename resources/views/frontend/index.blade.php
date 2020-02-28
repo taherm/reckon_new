@@ -102,7 +102,7 @@
 
                         <h4>@lang('general.services.bookkeeping')</h4>
                         <!--     <p>Suspendisse tempus, enim at convallis maximus faucibus lorem at rhoncus justo tellus.</p>   -->
-                        <a href="single-services.html" class="read-more-btn">
+                        <a href="{{ route('services.bookkeeping') }}" class="read-more-btn">
                             <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                             @lang('general.index.read_more')
                             <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -119,7 +119,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4>@lang('general.services.financial_analysis')</h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="{{ route('services.financial_analysis') }}" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     @lang('general.index.read_more')
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -134,7 +134,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4>@lang('general.services.financial_planning')</h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="{{ route('services.financial_planning') }}" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     @lang('general.index.read_more')
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -149,7 +149,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4>@lang('general.services.feasibility_study')</h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="{{ route('services.feasibility_study') }}" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     @lang('general.index.read_more')
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -164,7 +164,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4>@lang('general.services.cfo')</h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="{{ route('services.cfo') }}" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     @lang('general.index.read_more')
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>

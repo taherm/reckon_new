@@ -47,11 +47,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-12">
-                        <h3>Services</h3>
+                        <h3>@lang('general.header.services')</h3>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
+                            <li><a href="{{ route('home') }}">@lang('general.header.home')</a></li>
                             <li>/</li>
-                            <li class="active">Services</li>
+                            <li class="active">@lang('general.header.services')</li>
                         </ul>
                     </div>
                 </div>
@@ -69,73 +69,51 @@
                 <div class="side-bar">
                     <div class="widget services-list">
                         <ul>
-                            <li><a href="single-services.html">
+                            <li><a href="{{ route('services.bookkeeping') }}">
                                     <span class="left"><i class="fa fa-angle-right"></i></span>
 
-                                    Financial Planning
+                                    @lang('general.services.bookkeeping')
 
                                     <span class="right"><i class="fa fa-angle-right"></i></span>
                                 </a></li>
 
-                            <li><a href="single-services.html">
+                            <li><a href="{{ route('services.financial_analysis') }}">
                                     <span class="left"><i class="fa fa-angle-right"></i></span>
 
-                                    Corporate Finance
+                                    @lang('general.services.financial_analysis')
 
                                     <span class="right"><i class="fa fa-angle-right"></i></span>
                                 </a></li>
 
-                            <li><a href="single-services.html">
+                            <li><a href="{{ route('services.financial_planning') }}">
                                     <span class="left"><i class="fa fa-angle-right"></i></span>
 
-                                    Corporate Analysis
+                                    @lang('general.services.financial_planning')
 
                                     <span class="right"><i class="fa fa-angle-right"></i></span>
                                 </a></li>
 
-                            <li><a href="single-services.html">
+                            <li><a href="{{ route('services.feasibility_study') }}">
                                     <span class="left"><i class="fa fa-angle-right"></i></span>
 
-                                    Marketing Plan
+                                    @lang('general.services.feasibility_study')
 
                                     <span class="right"><i class="fa fa-angle-right"></i></span>
                                 </a></li>
 
-                            <li><a href="single-services.html">
+                            <li><a href="{{ route('services.cfo') }}">
                                     <span class="left"><i class="fa fa-angle-right"></i></span>
 
-                                    Business Growth
+                                    @lang('general.services.cfo')
 
                                     <span class="right"><i class="fa fa-angle-right"></i></span>
                                 </a></li>
 
-                            <li><a href="single-services.html">
-                                    <span class="left"><i class="fa fa-angle-right"></i></span>
-
-                                    Global Business
-
-                                    <span class="right"><i class="fa fa-angle-right"></i></span>
-                                </a></li>
-
-                            <li><a href="single-services.html">
-                                    <span class="left"><i class="fa fa-angle-right"></i></span>
-
-                                    Estate Planning
-
-                                    <span class="right"><i class="fa fa-angle-right"></i></span>
-                                </a></li>
-
-                            <li><a href="single-services.html">
-                                    <span class="left"><i class="fa fa-angle-right"></i></span>
-
-                                    Corporate Analysis
-
-                                    <span class="right"><i class="fa fa-angle-right"></i></span>
-                                </a></li>
+                            
                         </ul>
                     </div>
 
-                    <div class="widget sidebar-testimonials mb-0">
+                   <!-- <div class="widget sidebar-testimonials mb-0">
                         <div class="sidebar-testimonial-slider">
                             <div class="feedback">
                                 <img src="assets/img/client-avatar1.png" alt="client">
@@ -151,19 +129,18 @@
                                     content of a page when looking at its layout. </p>
                             </div>
                         </div>
-                    </div>
+                    </div>    -->
 
-                    <div class="widget brochure">
+                  <!--  <div class="widget brochure">
                         <a href="#" class="btn btn-primary">Download Brochure <i class="fa fa-file-pdf-o"></i></a>
-                    </div>
+                    </div>  -->
 
                     <div class="widget quick-contact mb-0">
-                        <h4>Quick contact to help?</h4>
-                        <p>Excepteur sint occaecat non proident, sunt in culpa officia deserunt mollit anim id est
-                            laborum.</p>
-                        <a href="contact.html" class="read-more-btn">
+                        <h4>@lang('general.service_layout.quick_contact')</h4>
+                        <p>@lang('general.service_layout.quick_contact_text')</p>
+                        <a href="{{ route('home') }}" class="read-more-btn">
                             <span class="left"><i class="fa fa-angle-double-right"></i></span>
-                            Contact Us
+                            @lang('general.header.contact')
                             <span class="right"><i class="fa fa-angle-double-right"></i></span>
                         </a>
                     </div>
@@ -172,7 +149,7 @@
 
             <div class="col-lg-8 col-md-7">
                 <div class="services-details">
-                    <div class="row">
+                    <!--<div class="row">
                         <div class="col-lg-7 col-md-12">
                             <div class="services-details-img">
                                 <img src="assets/img/services-details-img1.jpg" alt="services-details-img">
@@ -188,7 +165,7 @@
                                 <img src="assets/img/services-details-img3.jpg" alt="services-details-img">
                             </div>
                         </div>
-                    </div>
+                    </div>  -->
 
                     @yield('service')
                 </div>

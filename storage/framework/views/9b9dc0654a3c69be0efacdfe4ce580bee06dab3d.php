@@ -101,7 +101,7 @@
 
                         <h4><?php echo app('translator')->get('general.services.bookkeeping'); ?></h4>
                         <!--     <p>Suspendisse tempus, enim at convallis maximus faucibus lorem at rhoncus justo tellus.</p>   -->
-                        <a href="single-services.html" class="read-more-btn">
+                        <a href="<?php echo e(route('services.bookkeeping')); ?>" class="read-more-btn">
                             <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                             <?php echo app('translator')->get('general.index.read_more'); ?>
                             <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -118,7 +118,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4><?php echo app('translator')->get('general.services.financial_analysis'); ?></h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="<?php echo e(route('services.financial_analysis')); ?>" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -133,7 +133,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4><?php echo app('translator')->get('general.services.financial_planning'); ?></h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="<?php echo e(route('services.financial_planning')); ?>" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -148,7 +148,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4><?php echo app('translator')->get('general.services.feasibility_study'); ?></h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="<?php echo e(route('services.feasibility_study')); ?>" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>
@@ -163,7 +163,7 @@
                                <!-- <img src="assets/img/4.png" alt="icon">  -->
 
                                 <h4><?php echo app('translator')->get('general.services.cfo'); ?></h4>
-                                <a href="single-services.html" class="read-more-btn">
+                                <a href="<?php echo e(route('services.cfo')); ?>" class="read-more-btn">
                                     <span class="left"><i class="fa fa-chevron-circle-right"></i></span>
                                     <?php echo app('translator')->get('general.index.read_more'); ?>
                                     <span class="right"><i class="fa fa-chevron-circle-right"></i></span>

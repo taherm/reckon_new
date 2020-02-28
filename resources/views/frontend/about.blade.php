@@ -48,7 +48,7 @@
                     <div class="col-lg-12 col-md-12">
                         <h3>@lang('general.header.about')</h3>
                         <ul>
-                            <li><a href="index.html">@lang('general.header.home')</a></li>
+                            <li><a href="{{ route('home') }}">@lang('general.header.home')</a></li>
                             <li>/</li>
                             <li class="active">@lang('general.header.about')</li>
                         </ul>

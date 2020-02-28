@@ -27,7 +27,7 @@
             <div class="row">
                 <div class="col-lg-3 col-md-4 col-sm-5">
                     <div class="logo">
-                        <a href="/"><img src="assets/img/logo.jpg" alt="logo"></a>
+                        <a href="{{ route('home') }}"><img src="assets/img/logo.jpg" alt="logo"></a>
                     </div>
                 </div>
 
@@ -93,20 +93,20 @@
                         <!-- Nav Start -->
                         <div class="classynav">
                             <ul>
-                                <li><a href="/" class="active">@lang('general.header.home')</a></li>
+                                <li><a href="{{ route('home') }}" class="active">@lang('general.header.home')</a></li>
 
                                 <li><a href="{{ route('aboutus') }}">@lang('general.header.about')</a> </li>
 
                                 <li><a href="#">@lang('general.header.services')</a>
                                     <ul class="dropdown">
-                                        <li><a href="/bookkeeping">@lang('general.header.bookkeeping')</a></li>
-                                        <li><a href="/financial_analysis">@lang('general.header.financial_analysis')</a>
+                                        <li><a href="{{ route('services.bookkeeping') }}">@lang('general.header.bookkeeping')</a></li>
+                                        <li><a href="{{ route('services.financial_analysis') }}">@lang('general.header.financial_analysis')</a>
                                         </li>
-                                        <li><a href="/financial_planning">@lang('general.header.financial_planning')</a>
+                                        <li><a href="{{ route('services.financial_planning') }}">@lang('general.header.financial_planning')</a>
                                         </li>
-                                        <li><a href="/feasibility_study">@lang('general.header.feasibility_study')</a>
+                                        <li><a href="{{ route('services.feasibility_study') }}">@lang('general.header.feasibility_study')</a>
                                         </li>
-                                        <li><a href="/cfo">@lang('general.header.cfo')</a></li>
+                                        <li><a href="{{ route('services.cfo') }}">@lang('general.header.cfo')</a></li>
                                     </ul>
                                 </li>
 
