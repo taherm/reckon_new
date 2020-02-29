@@ -71,46 +71,31 @@
                      <div class="row">
                          <div class="col-lg-6 col-md-12">
                              <div class="text">
-                                 <h4 class="title">Get In Touch With Us</h4>
-                                 <p>For general questions, please send us a message and we’ll get right back to you. You
-                                     can also call us directly to speak with a member of our service team.</p>
-                                 <span>Fields marked with a (*) are required.</span>
+                                 <h4 class="title"><?php echo app('translator')->get('general.contactus.get_in_touch'); ?></h4>
+                                 <p><?php echo app('translator')->get('general.contactus.get_in_touch_text'); ?></p>
+                                 <span><?php echo app('translator')->get('general.contactus.fields_required'); ?></span>
                              </div>
 
                              <div class="stay-connected">
-                                 <h4 class="title">Stay Connected</h4>
+                                 <h4 class="title"><?php echo app('translator')->get('general.contactus.stay_connected'); ?></h4>
                                  <ul>
                                      <li>
-                                         <a href="#">
-                                             <i class="fa fa-facebook"></i>
+                                         <a href="https://www.instagram.com/kwreckon/">
+                                             <i class="fa fa-instagram"></i>
 
-                                             <span>Facebook</span>
+                                             <span><?php echo app('translator')->get('general.contactus.instagram'); ?></span>
                                          </a>
                                      </li>
 
                                      <li>
-                                         <a href="#">
-                                             <i class="fa fa-twitter"></i>
+                                         <a href="https://wa.me/96550009777">
+                                             <i class="fa fa-whatsapp"></i>
 
-                                             <span>Twitter</span>
+                                             <span><?php echo app('translator')->get('general.contactus.whatsapp'); ?></span>
                                          </a>
                                      </li>
 
-                                     <li>
-                                         <a href="#">
-                                             <i class="fa fa-pinterest-p"></i>
-
-                                             <span>Pinterest</span>
-                                         </a>
-                                     </li>
-
-                                     <li>
-                                         <a href="#">
-                                             <i class="fa fa-vimeo"></i>
-
-                                             <span>Vimeo</span>
-                                         </a>
-                                     </li>
+                                    
                                  </ul>
                              </div>
                          </div>

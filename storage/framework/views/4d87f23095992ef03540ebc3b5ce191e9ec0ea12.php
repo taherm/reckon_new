@@ -70,7 +70,7 @@
                     <p align="justify"><?php echo app('translator')->get('general.aboutus.paragraph'); ?> </p>
 
                     <div class="gq-au-btn">
-                        <a href="/contactus" class="btn btn-primary mr-20">Get a Quote</a>
+                    <a href="<?php echo e(route('contactus')); ?>" class="btn btn-primary mr-20"><?php echo app('translator')->get('general.header.contact'); ?></a>
 
                     </div>
                 </div>

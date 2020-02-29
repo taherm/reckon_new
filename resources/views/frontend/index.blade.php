@@ -13,8 +13,8 @@
                     <p align="justify">@lang('general.index.paragraph') </p>
 
                     <div class="gq-au-btn">
-                        <a href="get-quote.html" class="btn btn-primary mr-20">Get a Quote</a>
-                        <a href="about.html" class="btn btn-primary btn-color">About Us</a>
+                        <a href="{{ route('contactus') }}" class="btn btn-primary mr-20">@lang('general.header.contact')</a>
+                        <a href="{{ route('aboutus') }}" class="btn btn-primary btn-color">@lang('general.header.about')</a>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                 <div class="services-box services-bg1">
                     <div class="services-content">
-                       <!-- <img src="assets/img/4.png" alt="icon">  -->
+                        <img src="assets/img/4.png" alt="icon">  
 
                         <h4>@lang('general.services.bookkeeping')</h4>
                         <!--     <p>Suspendisse tempus, enim at convallis maximus faucibus lorem at rhoncus justo tellus.</p>   -->
@@ -116,7 +116,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg2">
                             <div class="services-content">
-                               <!-- <img src="assets/img/4.png" alt="icon">  -->
+                                <img src="assets/img/4.png" alt="icon">  
 
                                 <h4>@lang('general.services.financial_analysis')</h4>
                                 <a href="{{ route('services.financial_analysis') }}" class="read-more-btn">
@@ -131,7 +131,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg3">
                             <div class="services-content">
-                               <!-- <img src="assets/img/4.png" alt="icon">  -->
+                                <img src="assets/img/4.png" alt="icon">  
 
                                 <h4>@lang('general.services.financial_planning')</h4>
                                 <a href="{{ route('services.financial_planning') }}" class="read-more-btn">
@@ -146,7 +146,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg4 mt-30">
                             <div class="services-content">
-                               <!-- <img src="assets/img/4.png" alt="icon">  -->
+                                <img src="assets/img/4.png" alt="icon">  
 
                                 <h4>@lang('general.services.feasibility_study')</h4>
                                 <a href="{{ route('services.feasibility_study') }}" class="read-more-btn">
@@ -161,7 +161,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg5 mt-30">
                             <div class="services-content">
-                               <!-- <img src="assets/img/4.png" alt="icon">  -->
+                                <img src="assets/img/4.png" alt="icon">  
 
                                 <h4>@lang('general.services.cfo')</h4>
                                 <a href="{{ route('services.cfo') }}" class="read-more-btn">
