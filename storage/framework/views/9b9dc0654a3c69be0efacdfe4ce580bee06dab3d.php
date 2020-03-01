@@ -97,7 +97,7 @@
             <div class="col-lg-4 col-md-6 offset-lg-0 offset-md-3">
                 <div class="services-box services-bg1">
                     <div class="services-content">
-                        <img src="assets/img/4.png" alt="icon">  
+                        <img src="assets/img/reckon_icon.png" alt="icon">  
 
                         <h4><?php echo app('translator')->get('general.services.bookkeeping'); ?></h4>
                         <!--     <p>Suspendisse tempus, enim at convallis maximus faucibus lorem at rhoncus justo tellus.</p>   -->
@@ -115,7 +115,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg2">
                             <div class="services-content">
-                                <img src="assets/img/4.png" alt="icon">  
+                                <img src="assets/img/reckon_icon.png" alt="icon">  
 
                                 <h4><?php echo app('translator')->get('general.services.financial_analysis'); ?></h4>
                                 <a href="<?php echo e(route('services.financial_analysis')); ?>" class="read-more-btn">
@@ -130,7 +130,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg3">
                             <div class="services-content">
-                                <img src="assets/img/4.png" alt="icon">  
+                                <img src="assets/img/reckon_icon.png" alt="icon">  
 
                                 <h4><?php echo app('translator')->get('general.services.financial_planning'); ?></h4>
                                 <a href="<?php echo e(route('services.financial_planning')); ?>" class="read-more-btn">
@@ -145,7 +145,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg4 mt-30">
                             <div class="services-content">
-                                <img src="assets/img/4.png" alt="icon">  
+                                <img src="assets/img/reckon_icon.png" alt="icon">  
 
                                 <h4><?php echo app('translator')->get('general.services.feasibility_study'); ?></h4>
                                 <a href="<?php echo e(route('services.feasibility_study')); ?>" class="read-more-btn">
@@ -160,7 +160,7 @@
                     <div class="col-lg-6 col-md-6">
                         <div class="services-box services-bg5 mt-30">
                             <div class="services-content">
-                                <img src="assets/img/4.png" alt="icon">  
+                                <img src="assets/img/reckon_icon.png" alt="icon">  
 
                                 <h4><?php echo app('translator')->get('general.services.cfo'); ?></h4>
                                 <a href="<?php echo e(route('services.cfo')); ?>" class="read-more-btn">
