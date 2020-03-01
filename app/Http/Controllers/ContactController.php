@@ -26,7 +26,7 @@ class ContactController extends Controller
 //dd($data['name']);
 
 try {
-    \Mail::to('mukadam.taher@gmail.com')->send(new contact($data));   
+    \Mail::to('info@kw-reckon.com')->send(new contact($data));   
 
 } catch(\Exception $e) {
     dd($e->getMessage());
