@@ -10,7 +10,7 @@ class ContactController extends Controller
    public function send(Request $request)
     {
         $validatedData = $request->validate([
-            'name' => 'required|alpha',
+            'name' => 'required',
             'email' => 'required|email|min:10|max:30',
             'phone' => 'required|min:8|max:8',
             'message' => ['required', 'min:10', 'max:100', 'not_regex:/((?:https?\:\/\/|www\.)(?:[-a-z0-9]+\.)*[-a-z0-9]+.*)/i'],
